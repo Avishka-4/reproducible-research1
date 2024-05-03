@@ -1,6 +1,5 @@
 ###Loading and preprocessing the data
 
-
 ```r
 unzip("activity.zip")
 initialData <- read.csv("activity.csv", colClasses=c("numeric", "Date", "numeric"))
